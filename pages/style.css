@@ -1,0 +1,22 @@
+
+/*Background*/
+:root {
+    --strong-bg-color:  #f2f2f2;
+    --light-bg-color: #f8f7f9;
+    --white-bg-color: #ffffff;
+  }
+
+/*100% Screen*/
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  .mainContainer {
+      width: 100vw;
+      height: 100vh;
+      min-height: 100%;
+      background: var(--strong-bg-color);
+      box-sizing: border-box;
+  }
+
